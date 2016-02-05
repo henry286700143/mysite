@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>欢迎光临</title>
+</head>
+<body>
+欢迎光临henry's place<br>
+{{ string }}<br>
+
+{% for i in TutorialList %}<br>
+{{ i }}<br>
+{% endfor %}<br>
+
+啊：{{ info_dict.site }}<br>
+啊1：{{ info_dict.content }}<br>
+
+{% for i in List %}<br>
+{{ i }}{% if not forloop.last %},{% endif %}<br>
+{% endfor %}<br>
+
+{% url 'home' %}
+</body>
+</html>
