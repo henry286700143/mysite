@@ -1,0 +1,31 @@
+css
+
+id 选择器常常用于建立派生选择器。
+
+类名的第一个字符不能使用数字！它无法在 Mozilla 或 Firefox 中起作用
+
+派生选择器
+.fancy td
+基于类而被选择
+td.fancy
+
+
+
+CSS背景：
+背景色：background-color
+背景图像：background-image
+背景重复：background-repeat
+背景定位：background-position
+背景关联：background-attachment（明图像相对于可视区是固定的（fixed））
+
+CSS文本
+缩进文本：text-indent
+水平对齐：text-align
+字间隔: word-spacing
+字母间隔：letter-spacing
+字符转换: text-transform
+文本装饰: text-decoration
+处理空白符: white-space
+文本方向: direction
+行高（行间距）：line-height
+

@@ -1,0 +1,12 @@
+python
+
+list:[]
+元组:()
+字典:{}
+
+获取所有key
+ info.keys()
+获取key,value并循环
+ for key, value in info.items():
+    print key, ':',  value
+	
